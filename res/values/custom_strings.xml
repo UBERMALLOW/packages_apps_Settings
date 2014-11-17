@@ -14,29 +14,29 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
- <!-- BUILD TWEAKS -->
+    <!-- BUILD TWEAKS -->
     <string name="header_category_uber">Personalization</string>
     <string name="uber_settings_title">Ubermallow</string>
 
-<!-- UBER build date-->
+    <!-- UBER build date-->
     <string name="build_date">UBER build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
 
-<!-- UBER GCC version info -->
+    <!-- UBER GCC version info -->
     <string name="uber_android">GCC android</string>
     <string name="uber_android_default">Unknown</string>
     <string name="uber_kernel">GCC kernel</string>
     <string name="uber_kernel_default">Unknown</string>
 
-<!-- UBER GCC build flags info -->
+    <!-- UBER GCC build flags info -->
     <string name="uber_flags">Optimizations</string>
     <string name="uber_flags_default">None</string>
 
-<!-- Display Settings -->
+    <!-- Display Settings -->
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
 
-<!-- Uber Menu -->
+    <!-- Uber Menu -->
     <string name="uber_menu_personalizaton">Ubermallow options</string>
     <string name="status_bar_screen_title">Status bar</string>
     <string name="navigation_bar_screen_title">Navigation bar</string>
@@ -45,7 +45,7 @@
     <string name="power_menu_title">Power menu</string>
     <string name="volume_rocker_screen_title">Volume rocker</string>
 
-<!-- Uber Categories -->
+    <!-- Uber Categories -->
 	<string name="display_category_navbar_options_title">Navigation bar options</string>
 	<string name="display_category_wakeup_options_title">Wakeup options</string>
 
@@ -59,4 +59,62 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Generic strings -->
+    <string name="ok_string">OK</string>
+    <string name="default_string">Default</string>
+    <string name="enabled_string">Enabled</string>
+    <string name="disabled_string">Disabled</string>
+    <string name="general_string">General</string>
+    <string name="reset_string">Reset</string>
+    <string name="empty_string">Empty</string>
+   <string name="font_size_sample">Sample</string>
+
+    <!-- Profiles -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_applist_title">Apps</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Edit light settings</string>
+    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Custom</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Always on</string>
+    <string name="pulse_length_very_short">Very short</string>
+    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Long</string>
+    <string name="pulse_length_very_long">Very long</string>
+    <string name="pulse_speed_very_fast">Very fast</string>
+    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Slow</string>
+    <string name="pulse_speed_very_slow">Very slow</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Battery light</string>
+    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="battery_light_list_title">Colors</string>
+    <string name="battery_light_low_color_title">Battery low</string>
+    <string name="battery_light_medium_color_title">Charging</string>
+    <string name="battery_light_full_color_title">Fully charged</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Notification light</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_phonelist_title">Phone</string>
+    <string name="notification_light_use_custom">Use custom values</string>
+    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_missed_call_title">Missed call</string>
+    <string name="notification_light_voicemail_title">Voicemail</string>
 </resources>

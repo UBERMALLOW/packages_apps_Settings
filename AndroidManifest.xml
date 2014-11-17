@@ -2435,6 +2435,8 @@
 
         <!-- BUILD TWEAKS START -->
         <activity android:name=".uber.UberSettings" />
+        <activity android:name=".notificationlight.NotificationLightSettings" />
+        <activity android:name=".notificationlight.BatteryLightSettings" />
         <!-- BUILD TWEAKS END -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
