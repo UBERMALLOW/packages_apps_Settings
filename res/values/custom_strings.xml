@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The UBERTC Project
+<!-- Copyright (C) 2015 UBERMALLOW
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +14,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ <!-- BUILD TWEAKS -->
+    <string name="header_category_uber">Personalization</string>
+    <string name="uber_settings_title">Ubermallow</string>
+
 <!-- UBER build date-->
     <string name="build_date">UBER build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
@@ -31,4 +35,18 @@
 <!-- Display Settings -->
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
+
+<!-- Uber Menu -->
+    <string name="uber_menu_personalizaton">Ubermallow options</string>
+    <string name="status_bar_screen_title">Status bar</string>
+    <string name="navigation_bar_screen_title">Navigation bar</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="volume_rocker_screen_title">Volume rocker</string>
+    
+    <!-- BitSyko Layers -->
+    <string name="bitsyko_layers">Layers</string>
+
 </resources>
+
