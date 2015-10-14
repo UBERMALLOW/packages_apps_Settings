@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<<<<<<< HEAD:res/values/uber_strings.xml
     <!-- UBER build date-->
     <string name="build_date">UBER build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
@@ -28,4 +29,8 @@
 <!-- UBER GCC build flags info -->
     <string name="uber_flags">Optimizations</string>
     <string name="uber_flags_default">None</string>
+
+<!-- Display Settings -->
+    <!-- Font size sample text -->
+    <string name="font_size_sample">Font Size</string>
 </resources>
