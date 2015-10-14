@@ -14,9 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-<<<<<<< HEAD:res/values/uber_strings.xml
-    <!-- UBER build date-->
+<!-- UBER build date-->
     <string name="build_date">UBER build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
 
