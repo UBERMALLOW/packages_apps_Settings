@@ -75,6 +75,7 @@
     <!-- CUSTOMIZATIONS -->
     <dashboard-category
             android:id="@+id/uber_section"
+            android:key="@string/category_key_uber"
             android:title="@string/header_category_uber" >
 
         <!-- ROM TWEAKS -->
