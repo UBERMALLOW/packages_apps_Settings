@@ -15,33 +15,20 @@ import com.android.settings.SettingsPreferenceFragment;
 public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
+		// private variables here
 		
-    private SwitchPreference mVolumeRockerWake;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.custom_settings_volume);
-
-        // volume rocker wake
-        mVolumeRockerWake = (SwitchPreference) findPreference(VOLUME_ROCKER_WAKE);
-        mVolumeRockerWake.setOnPreferenceChangeListener(this);
-        int volumeRockerWake = Settings.System.getInt(getContentResolver(),
-                VOLUME_ROCKER_WAKE, 0);
-        mVolumeRockerWake.setChecked(volumeRockerWake != 0);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
 
-        if (preference == mVolumeRockerWake) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putInt(getContentResolver(), VOLUME_ROCKER_WAKE,
-                    value ? 1 : 0);
-       }
-        return true;
+		// preference changes here
+        return false;
     }
 
     @Override
