@@ -133,4 +133,6 @@
     <string name="app_ops_summary">Control apps permissions with more power</string>
     <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
 
+  	<string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
