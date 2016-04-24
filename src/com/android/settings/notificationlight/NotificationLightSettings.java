@@ -100,7 +100,6 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         Resources resources = getResources();
 
         PreferenceGroup mGeneralPrefs = (PreferenceGroup) prefSet.findPreference("general_section");
-        PreferenceGroup mAdvancedPrefs = (PreferenceGroup) prefSet.findPreference("advanced_section");
         PreferenceGroup mPhonePrefs = (PreferenceGroup) prefSet.findPreference("phone_list");
 
         mMultiColorNotificationLed = resources.getBoolean(
@@ -154,7 +153,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         if (mMultiColorNotificationLed) {
             setHasOptionsMenu(true);
         } else {
-            mAdvancedPrefs.removePreference(mCustomEnabledPref);
+            mGeneralPrefs.removePreference(mDefaultPref);
+            mGeneralPrefs.removePreference(mCustomEnabledPref);
             prefSet.removePreference(mPhonePrefs);
             prefSet.removePreference(mApplicationPrefList);
             resetColors();
@@ -208,7 +208,9 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         int timeOff = Settings.System.getInt(resolver,
                 NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, mDefaultLedOff);
 
-        mDefaultPref.setAllValues(color, timeOn, timeOff);
+        if (mDefaultPref != null) {
+            mDefaultPref.setAllValues(color, timeOn, timeOff);
+        }
 
         // Get Missed call and Voicemail values
         if (mCallPref != null) {
